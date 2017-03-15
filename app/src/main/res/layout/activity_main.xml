@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/androidparty"
+        android:src="@drawable/louiselandi"
         android:scaleType="centerCrop"
         />
 
@@ -24,7 +24,7 @@
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
         android:padding="@dimen/text_padding"
-        android:text="Happy Birthday!" />
+        android:text="Feliz Aniversário Gatinha!" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,5 +37,5 @@
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
         android:padding="@dimen/text_padding"
-        android:text="From R.!" />
+        android:text="Do seu Gatinho!" />
 </RelativeLayout>
