@@ -4,16 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src=""
+        android:src="@drawable/androidparty"
         android:scaleType="centerCrop"
         />
 
@@ -24,6 +20,10 @@
         android:layout_alignParentRight="false"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
+        android:textSize="@dimen/title_font_size"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="@dimen/text_padding"
         android:text="Happy Birthday!" />
 
     <TextView
@@ -33,5 +33,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="false"
         android:layout_alignParentLeft="false"
+        android:textSize="@dimen/title_font_size"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:padding="@dimen/text_padding"
         android:text="From R.!" />
 </RelativeLayout>
